@@ -1,0 +1,23 @@
+заходим в локальный репозиторий
+создаем файл file.txt
+создаем гит в репозитории
+добавили файл в гит и сделали комит
+далее необходимо ввести майл и никнейм
+
+cd /user/Home
+git init
+git add .
+git commit -m 'commit1'
+git config --global user.email "egor4ik1303@mail.ru"
+git config --global user.name "GolovkinEgor"
+----------------------------------------------------------
+создаем ветку
+сохраняем
+создаем комит
+кидаем файл на гитхаб
+
+git branch -M mains
+git add .
+git commit -m 'commit2'
+git remote add origin2 https://github.com/GolovkinEgor/Golovkin.git
+git push -u origin2 main
